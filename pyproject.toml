@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "audio-blog-backend"
+version = "0.1.0"
+description = "Backend for audio_blog written in python 3.11"
+authors = ["cricher <richerjackcarter@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^3.0.3"
+flask-cors = "^4.0.1"
+mutagen = "^1.47.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
