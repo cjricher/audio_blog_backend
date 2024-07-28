@@ -5,6 +5,12 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.collapsing {
+  -webkit-transition: none;
+  transition: none;
+  display: none;
+}
+
 .ff-plex-serif {
   font-family: "IBM Plex Serif", serif;
 }
@@ -32,10 +38,28 @@ html {
    border: green solid 1px;
 }
 
-.audio-list {
-  max-width: 800px;
+.audio-card {
+  height: 100%;
+}
+
+.accordion {
   margin-left: auto;
   margin-right: auto;
+  max-width: 800px;
+}
+
+.accordion-header {
+  .ff-plex-mono
+}
+
+.active {
+  color: #5fabfb !important;
+  transition: none !important ;
+}
+
+.accordion-body {
+  padding: 020px !important;
+  height: max-content;
 }
 
 .audio-card {
